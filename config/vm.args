@@ -1,0 +1,11 @@
+## Name of the node
+-name ft@127.0.0.1
+
+## Cookie for distributed erlang
+-setcookie dev
+
+#+pc unicode
+
+## Enable kernel poll and a few async threads
++K true
++A 5

@@ -1,0 +1,17 @@
+{application, ft,
+ [{description, "FT App"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ft_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {included_applications, [eredis, poolboy, eredis_pool]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
