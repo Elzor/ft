@@ -61,4 +61,4 @@ auto:
 	$(REBAR) auto
 
 rel:
-	$(REBAR) release -n ft
+	$(REBAR) as prod release -n ft
