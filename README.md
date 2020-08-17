@@ -2,7 +2,7 @@ ft
 =====
 
 ![Build status]
-(???)
+(https://github.com/Elzor/ft/workflows/Erlang%20CI/badge.svg)
 
 Test OTP application
 
